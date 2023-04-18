@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 10%;
+    margin-top: 10px;
+  }
+  
+  .alert {
+    color: darkred;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  
+  .main-content {
+    width: 20%;
+  }
+  
+  .error {
+    color: darkred;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+  

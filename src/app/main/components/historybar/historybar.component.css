@@ -1,0 +1,107 @@
+.historybar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.new-chat a {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+}
+
+.new-chat a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.message-history {
+  display: flex;
+  height: 60%;
+  overflow-y: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color:white;
+}
+
+.message {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  max-width: 80%;
+}
+
+.sender {
+  background-color: #DCF8C6;
+  align-self: flex-start;
+}
+
+.receiver {
+  background-color: #FFFFFF;
+  align-self: flex-end;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: auto;
+  background-color: inherit;
+}
+
+.controls button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  --tw-text-opacity: 1;
+  color: rgba(255,255,255,var(--tw-text-opacity));
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.controls button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.controls button i {
+  margin-right: 0.5rem;
+}
+
+.clear-conversations-button {
+  background-color: #EFEFEF;
+}
+
+.light-mode-button {
+  background-color: #EFEFEF;
+}
+
+.get-help-button {
+  background-color: #EFEFEF;
+}
+
+.log-out-button {
+  background-color: #EFEFEF;
+}
+
+.controls button:hover {
+  cursor: pointer;
+}
+
+.no-history-message {
+  padding: 1rem;
+  margin: 1rem;
+}
+
